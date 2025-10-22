@@ -1,0 +1,111 @@
+/* Container: full viewport height but no black bg */
+.register-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff; /* white background */
+  color: #000; /* black text */
+  box-sizing: border-box;
+}
+
+/* Form styling with white background and black text */
+.register-form {
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+  max-width: 400px;
+  padding: 2.5rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+/* Inputs */
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  border: 1.5px solid #000;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #000;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.register-form input[type="text"]:focus,
+.register-form input[type="email"]:focus,
+.register-form input[type="password"]:focus {
+  border-color: #555;
+  outline: none;
+}
+
+/* Roles checkboxes */
+.roles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.roles label {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  color: #000;
+}
+
+.roles input[type="checkbox"] {
+  margin-right: 0.5rem;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+/* Submit button */
+.register-form button {
+  padding: 0.85rem 0;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.register-form button:hover {
+  background-color: #222;
+}
+
+/* Message */
+.message {
+  margin-top: 1.2rem;
+  text-align: center;
+  font-weight: 600;
+  color: #008000;
+}
+
+/* Footer at bottom */
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 3rem;
+}

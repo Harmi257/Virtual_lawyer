@@ -1,0 +1,81 @@
+/* Container: full viewport height, centered content */
+.booking-form-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #000;
+  box-sizing: border-box;
+}
+
+/* Form styling */
+.booking-form-container form {
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+  max-width: 500px;
+  padding: 2.5rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Heading */
+.booking-form-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+/* Inputs and textarea */
+.booking-form-container input[type="text"],
+.booking-form-container input[type="email"],
+.booking-form-container input[type="datetime-local"],
+.booking-form-container textarea {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  border: 1.5px solid #000;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #000;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+  resize: vertical;
+}
+
+.booking-form-container input:focus,
+.booking-form-container textarea:focus {
+  border-color: #555;
+  outline: none;
+}
+
+/* Submit button */
+.booking-form-container button[type="submit"] {
+  padding: 0.85rem 0;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.booking-form-container button[type="submit"]:hover {
+  background-color: #222;
+}
+
+/* Message */
+.booking-form-container p {
+  margin-top: 1.2rem;
+  text-align: center;
+  font-weight: 600;
+  color: #008000;
+}
+

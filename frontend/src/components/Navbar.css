@@ -1,0 +1,35 @@
+/* Styles for dropdown-menu to display horizontally */
+.navbar .dropdown-menu {
+  display: flex;          /* display children in a row */
+  flex-wrap: wrap;        /* wrap to next line if needed */
+  gap: 1rem;              /* space between items */
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  white-space: nowrap;    /* prevent items from breaking */
+  z-index: 1000;
+  list-style: none;
+  margin: 0;
+}
+
+/* Style individual dropdown items */
+.navbar .dropdown-menu li {
+  /* Remove block behavior so items sit inline */
+  display: inline-block;
+}
+
+/* Optional: style links */
+.navbar .dropdown-menu li a {
+  padding: 0.3rem 0.6rem;
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar .dropdown-menu li a:hover {
+  background-color: #eee;
+  border-radius: 4px;
+}

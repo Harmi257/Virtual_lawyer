@@ -1,0 +1,498 @@
+/* src/components/Home.css */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+}
+
+.home-page {
+  color: #000;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.navbar-logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  cursor: pointer;
+}
+
+.navbar-menu .active {
+  border-bottom: 2px solid black;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cookie-popup {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  background: black;
+  color: white;
+  padding: 20px;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.cookie-popup h3 {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cookie-popup p {
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.cookie-popup button {
+  background: white;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.cookie-popup button:hover {
+  background: #ddd;
+}
+
+/* Articles Section */
+.articles-section {
+  padding: 40px 60px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.articles-section h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.article-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.author-image {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.article-date {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.article-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.read-link {
+  font-size: 14px;
+  color: #007BFF;
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navbar-menu li {
+  cursor: pointer;
+  font-weight: 500;
+  color: #000;
+}
+
+.navbar-menu .active {
+  border-bottom: 2px solid black;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Cookie Popup */
+.cookie-popup {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 1px solid #ccc;
+  padding: 1rem;
+  max-width: 300px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.cookie-popup h3 {
+  margin: 0 0 0.5rem;
+}
+
+.cookie-popup p {
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.cookie-popup button {
+  padding: 0.4rem 0.8rem;
+  background-color: #000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Articles Section */
+.articles-section {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.articles-section h2 {
+  margin-bottom: 1rem;
+  font-size: 22px;
+  text-align: center;
+}
+
+.articles-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.article-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  width: 260px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.05);
+}
+
+.author-image {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.article-date {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 0.4rem;
+}
+
+.article-title {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 0.6rem;
+}
+
+.read-link {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.read-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #000;
+  color: white;
+  padding: 1.5rem;
+  font-size: 14px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.navbar-menu li {
+  cursor: pointer;
+}
+.navbar-menu .active {
+  font-weight: bold;
+  color: #0077cc;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+}
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+}
+.cookie-popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000; /* black background */
+  color: #fff; /* white text */
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  max-width: 320px;
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+}
+
+.cookie-popup h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.cookie-popup p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.cookie-popup button {
+  background-color: #fff; /* white button */
+  color: #000; /* black text */
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cookie-popup button:hover {
+  background-color: #ddd;
+}
+
+
+/* Articles Section */
+.articles-section {
+  padding: 2rem;
+}
+.articles-section h2 {
+  margin-bottom: 1rem;
+}
+
+.articles-slider-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.articles-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 1rem;
+  padding: 1rem 0;
+  scrollbar-width: none;
+}
+.articles-slider::-webkit-scrollbar {
+  display: none;
+}
+.article-card {
+  min-width: 250px;
+  max-width: 250px;
+  flex: 0 0 auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.author-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.article-date {
+  font-size: 0.8rem;
+  color: #777;
+  margin: 0.5rem 0;
+}
+.article-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.read-link {
+  font-size: 0.9rem;
+  color: #0077cc;
+  text-decoration: none;
+}
+.read-link:hover {
+  text-decoration: underline;
+}
+
+/* Arrows */
+.slider-arrow {
+  background-color: #fff;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 2;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
+.slider-arrow.left {
+  margin-right: 0.5rem;
+}
+.slider-arrow.right {
+  margin-left: 0.5rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.user-menu {
+  position: relative;
+  list-style: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 28px;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 8px 0;
+  border-radius: 4px;
+  width: 120px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  z-index: 1000;
+}
+
+.dropdown-menu li {
+  padding: 8px 15px;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.lawyer-category-section {
+  margin-bottom: 40px;
+}
+
+.article-card {
+  width: 250px;
+  flex: 0 0 auto;
+  background: #fff;
+  margin: 0 10px;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.author-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}

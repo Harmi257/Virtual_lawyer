@@ -1,0 +1,97 @@
+.contact-us {
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  background-color: #fff;
+  color: #111;
+}
+
+.brand-title {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.thin-line {
+  width: 60%;
+  margin: 0 auto;
+  border-top: 1px solid #ccc;
+}
+
+.page-path {
+  margin: 12px 0 24px;
+  font-size: 14px;
+  color: #555;
+}
+
+.office-address {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+
+.whatsapp-button {
+  margin: 20px 0;
+}
+
+.whatsapp-button button {
+  background-color: #25d366;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.whatsapp-button button:hover {
+  background-color: #1ebc59;
+}
+
+.company-info {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.company-info h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.company-info a {
+  color: #111;
+  text-decoration: underline;
+}
+
+.hours {
+  margin-top: 40px;
+}
+
+.hours h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hours p {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.hours-dropdown {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.5rem;
+}
+
+.hours-dropdown li {
+  margin-bottom: 4px;
+  font-size: 0.95rem;
+}
+
+.hours h3 {
+  font-weight: 600;
+  user-select: none;
+}

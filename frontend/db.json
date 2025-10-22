@@ -1,0 +1,106 @@
+{
+  "Personal / Family": [
+    {
+      "name": "Advocate Riya Sharma",
+      "phone": "987-654-3210",
+      "email": "riya.sharma@lawfirm.in",
+      "experience": "12 years",
+      "photo": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?crop=faces&fit=crop&w=200&h=200"
+    },
+    {
+      "name": "Advocate Arjun Singh",
+      "phone": "912-345-6789",
+      "email": "arjun.singh@lawfirm.in",
+      "experience": "9 years",
+      "photo": "https://images.unsplash.com/photo-1603415526960-f8f1a44b395f?crop=faces&fit=crop&w=200&h=200"
+    }
+  ],
+  "Divorce": [
+    {
+      "name": "Advocate Nisha Patel",
+      "phone": "998-877-6655",
+      "email": "nisha.patel@lawfirm.in",
+      "experience": "15 years",
+      "photo": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?crop=faces&fit=crop&w=200&h=200"
+    },
+    {
+      "name": "Advocate Rajesh Kumar",
+      "phone": "987-123-4567",
+      "email": "rajesh.kumar@lawfirm.in",
+      "experience": "14 years",
+      "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=faces&fit=crop&w=200&h=200"
+    }
+  ],
+  "Child Custody": [
+    {
+      "name": "Advocate Sneha Joshi",
+      "phone": "998-334-2211",
+      "email": "sneha.joshi@lawfirm.in",
+      "experience": "10 years",
+      "photo": "https://images.unsplash.com/photo-1531891437562-9b44201c8b61?crop=faces&fit=crop&w=200&h=200"
+    }
+  ],
+  "Medical Negligence": [
+    {
+      "name": "Advocate Amit Verma",
+      "phone": "990-456-7890",
+      "email": "amit.verma@lawfirm.in",
+      "experience": "13 years",
+      "photo": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?crop=faces&fit=crop&w=200&h=200"
+    }
+  ],
+  "Cyber Crime": [
+    {
+      "name": "Advocate Priya Reddy",
+      "phone": "987-555-1234",
+      "email": "priya.reddy@lawfirm.in",
+      "experience": "8 years",
+      "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=faces&fit=crop&w=200&h=200"
+    }
+  ],
+  "Property Disputes": [
+    {
+      "name": "Advocate Manish Gupta",
+      "phone": "999-888-7777",
+      "email": "manish.gupta@lawfirm.in",
+      "experience": "16 years",
+      "photo": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?crop=faces&fit=crop&w=200&h=200"
+    }
+  ],
+  "Labour & Service": [
+    {
+      "name": "Advocate Kavita Desai",
+      "phone": "978-654-3210",
+      "email": "kavita.desai@lawfirm.in",
+      "experience": "11 years",
+      "photo": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?crop=faces&fit=crop&w=200&h=200"
+    }
+  ],
+  "Consumer Court": [
+    {
+      "name": "Advocate Rohit Mehta",
+      "phone": "967-890-1234",
+      "email": "rohit.mehta@lawfirm.in",
+      "experience": "9 years",
+      "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=faces&fit=crop&w=200&h=200"
+    }
+  ],
+  "Wills & Trusts": [
+    {
+      "name": "Advocate Neha Kapoor",
+      "phone": "978-123-4567",
+      "email": "neha.kapoor@lawfirm.in",
+      "experience": "20 years",
+      "photo": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?crop=faces&fit=crop&w=200&h=200"
+    }
+  ],
+  "Criminal Law": [
+    {
+      "name": "Advocate Sanjay Rao",
+      "phone": "989-456-7890",
+      "email": "sanjay.rao@lawfirm.in",
+      "experience": "18 years",
+      "photo": "https://images.unsplash.com/photo-1603415526960-f8f1a44b395f?crop=faces&fit=crop&w=200&h=200"
+    }
+  ]
+}

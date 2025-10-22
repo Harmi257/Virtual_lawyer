@@ -1,0 +1,62 @@
+/* Container for Booking Status Update */
+.status-update-container {
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #000;
+  box-sizing: border-box;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Heading */
+.status-update-container h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* Inputs */
+.status-update-container input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1.5px solid #000;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #000;
+  margin-bottom: 1.25rem;
+  box-sizing: border-box;
+}
+
+.status-update-container input:focus {
+  border-color: #555;
+  outline: none;
+}
+
+/* Button */
+.status-update-container button {
+  width: 100%;
+  padding: 0.85rem 0;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.status-update-container button:hover {
+  background-color: #222;
+}
+
+/* Message */
+.status-update-container p {
+  text-align: center;
+  font-weight: 600;
+  color: #d00;
+  margin-top: 1rem;
+}

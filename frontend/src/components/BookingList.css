@@ -1,0 +1,89 @@
+/* Container for Booking List */
+.booking-list-container {
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #000;
+  box-sizing: border-box;
+}
+
+/* Heading */
+.booking-list-container h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* Search controls */
+.booking-search-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto 2rem auto;
+}
+
+.booking-search-controls select,
+.booking-search-controls input {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1.5px solid #000;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #000;
+}
+
+.booking-search-controls input:focus,
+.booking-search-controls select:focus {
+  border-color: #555;
+  outline: none;
+}
+
+.booking-search-controls button {
+  padding: 0.85rem 0;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.booking-search-controls button:hover {
+  background-color: #222;
+}
+
+/* Message */
+.booking-message {
+  text-align: center;
+  font-weight: 600;
+  color: #d00;
+  margin-bottom: 1rem;
+}
+
+/* Booking List */
+.booking-list {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.booking-list li {
+  background-color: #f9f9f9;
+  padding: 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.booking-list li strong {
+  display: inline-block;
+  width: 110px;
+  font-weight: 600;
+  color: #333;
+}
